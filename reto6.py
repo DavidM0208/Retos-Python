@@ -10,6 +10,7 @@ else:
     compra=numeroproductos*valorproducto
 
 descuento=randint(1,4)
+total=compra
 if compra>=50000:
     print("El cliente puede participar para beneficio del descuento por su compra")
     if descuento==1:
